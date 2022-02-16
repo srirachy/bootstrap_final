@@ -1,0 +1,17 @@
+/* general css for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', serif;
+}
+
+/* set body and html height to 100% for parallax */
+body, html, .jumbotron{
+    height: 100%;
+}
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
