@@ -1,4 +1,4 @@
-# Mobile Friendly Websites Project
+# Mobile Friendly Websites Final Project
 
 ## Description
 This project has the following requirements:
