@@ -53,88 +53,46 @@
 	</header>
 
 	<main>
-		<!-- carousel article -->
+		<!-- maybe a contact banner image article -->
 		<article>
-			<div id="carousel_container" class="carousel slide carousel-fade overflow-auto" data-bs-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active" id="c_one">
-						<img src="./IMG/one.jpg" class="d-block w-100" alt="...">
-						<div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
-							<h5>Hummingbird</h5>
-							<p>Known for their erratic and agile movements</p>
-						</div>
-					</div>
-					<div class="carousel-item" id="c_two">
-						<img src="./IMG/two.jpg" class="d-block w-100" alt="...">
-						<div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
-							<h5>Swift</h5>
-							<p>One of the fastest flying birds with an average flight speed of around 100km per hour</p>
-						</div>
-					</div>
-					<div class="carousel-item" id="c_three">
-						<img src="./IMG/three.jpg" class="d-block w-100" alt="...">
-						<div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
-							<h5>Seagull</h5>
-							<p>Known for their squaking calls, wailing, webbed feet, and sout and longish bills</p>
-						</div>
-					</div>
-					<div class="carousel-item" id="c_four">
-						<img src="./IMG/four.jpg" class="d-block w-100" alt="...">
-						<div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
-							<h5>Penguin</h5>
-							<p>Known for their unusually upright, waddling gait, their cuteness, their swimming ability,
-								and their
-								lack of fear toward humans</p>
-						</div>
-					</div>
-					<div class="carousel-item" id="c_five">
-						<img src="./IMG/five.jpg" class="d-block w-100" alt="...">
-						<div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
-							<h5>Swallow</h5>
-							<p>Incredibly graceful songbirds, able to swoop and glide for hours as they chase small
-								insects in midair
-							</p>
-						</div>
-					</div>
+			<div class="jumbotron jumbotron-fluid overflow-auto" id="contact_jumbo">
+				<div class="container-fluid h-100 d-flex align-items-end justify-content-center">
+					<!-- figure out why flexbox aint workin on this -->
+					<!-- <h1 class="contact_header d-none d-sm-block display-4 text-uppercase">contact</h1> -->
+					<h1 class="contact_header display-4 text-uppercase text-white mb-4">contact</h1>
 				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carousel_container"
-					data-bs-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Previous</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carousel_container"
-					data-bs-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
-				</button>
 			</div>
 		</article>
 
-		<!-- sponsors article -->
+
+
+		<!-- add customized contact form -->
 		<article>
-			<div class="sponsor_container container-fluid overflow-auto">
-				<div class="d-flex flex-column justify-content-center align-items-center">
-					<h2 class="display-6 fw-bold text-uppercase text-white my-5 text-center">our sponsors</h2>
-					<figure class="figure d-flex flex-column align-items-center">
-						<!-- urban bird foundation -->
-						<a href="https://urbanbird.org/" target="_blank" rel="noopener noreferrer">
-							<img src="./IMG/ubf.jpg" alt="urban bird foundation logo" class="img-fluid">
-						</a>
-						<figcaption class="figure-caption text-center mb-3">Urban Bird Foundation</figcaption>
-						<!-- bird conservation fund -->
-						<a href="https://www.birdfund.org/" target="_blank" rel="noopener noreferrer">
-							<img src="./IMG/bcf.jpg" alt="bird conservation fund logo" class="img-fluid">
-						</a>
-						<figcaption class="figure-caption text-center mb-3">Bird Conservation Fund</figcaption>
-						<!-- niqqy woofaj -->
-						<a href="https://srirachy.github.io/final_project/" target="_blank" rel="noopener noreferrer">
-							<img src="./IMG/nw_logo.jpg" alt="niqqy woofaj logo" class="img-fluid">
-						</a>
-						<figcaption class="figure-caption text-center">Niqqy Woofaj</figcaption>
-					</figure>
+			<div class="form_header container-fluid overflow-auto">
+				<p class="text-center">Subscribe now!</p>
+				<div class="contact_container d-flex">
+					<div class="form_text_container w-50 d-flex flex-column justify-content-center align-items-center">
+						<p>filler text</p>
+					</div>
+					<!-- gotta figure out why this resizes -->
+					<div class="w-50 d-flex justify-content-center">
+						<form>
+							<div class="mb-3">
+								<label for="input_name" class="form-label">Name</label>
+								<input type="text" class="form-control w-100" id="input_name">
+							</div>
+							<div class="mb-3">
+								<label for="input_email" class="form-label">E-mail</label>
+								<input type="email" class="form-control w-100" id="input_email"
+									aria-describedby="emailHelp">
+							</div>
+							<button type="submit" class="btn btn-primary w-100 mb-3">Get Started!</button>
+						</form>
+					</div>
 				</div>
 			</div>
 		</article>
+
 	</main>
 
 	<footer>

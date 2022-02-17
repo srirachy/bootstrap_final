@@ -6,12 +6,67 @@
     font-family: 'Open Sans Condensed', serif;
 }
 
-/* set body and html height to 100% for parallax */
-body, html, .jumbotron{
+/* set body and html height to 100%*/
+body, html{
     height: 100%;
 }
 
+html{
+    background-color: #201f1f;
+}
+
+/* background-color for specific sections */
+.sponsor_container, .accordion-button, .accordion-body, .contact_container, .form_header{
+    background-color: #88A684;
+}
+
 body{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    background-color: #201f1f;
+}
+
+/* css for carousel images*/
+#carousel_container .carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 70vh;
+}
+
+/* css for carousel ft. pseudo-element */
+#carousel_container .carousel-item:before{
+    content: "";
+    background-image:
+    linear-gradient(
+      to bottom,
+      transparent, rgba(0,0,0,0.5)
+    );
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 70vh;
+}
+
+/* css for icon borders */
+.rounded-circle{
+    width: 50px;
+    height: 50px;
+}
+
+/* change outline color of accordion */
+.accordion-item{
+    background-color: #000000;
+}
+
+/* css for jumbotron */
+.jumbotron{
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact_jumbo{
+    background-image: url('/IMG/ship.jpg');
 }
