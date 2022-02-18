@@ -3,7 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans Condensed', serif;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+/* css for title text ft. gfont */
+.title_text{
+    font-family: 'Playball', cursive;
 }
 
 /* set body and html height to 100%*/
@@ -11,8 +16,9 @@ body, html{
     height: 100%;
 }
 
-html{
-    background-color: #201f1f;
+/* css to give body a background image */
+body{
+    background-image: url('/IMG/bkg.jpg');
 }
 
 /* background-color for specific sections */
@@ -20,13 +26,13 @@ html{
     background-color: #88A684;
 }
 
-body{
-    margin-left: 20vh;
-    margin-right: 20vh;
-    background-color: #201f1f;
+/* add some margin to main */
+main{
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
-/* css for carousel images*/
+/* css for carousel images to make them uniform in height*/
 #carousel_container .carousel-item img{
     object-fit: cover;
     object-position: center;
@@ -60,13 +66,24 @@ body{
     background-color: #000000;
 }
 
+/* change height for accordion images */
+.accordion img{
+    height: 80vh;
+}
+
 /* css for jumbotron */
 .jumbotron{
-    height: 30vh;
+    height: 55vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/* add background image to jumbo */
 #contact_jumbo{
     background-image: url('/IMG/ship.jpg');
+}
+
+/* css for subtle shadow text */
+.contact_header{
+    text-shadow: 2px 2px #88A684;
 }

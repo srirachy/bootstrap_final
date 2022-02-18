@@ -10,10 +10,14 @@
 		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<!-- link stylesheet -->
 	<link href="./CSS/style.css" rel="stylesheet">
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed&family=Playball&display=swap" rel="stylesheet">
 	<!-- font awesome -->
 	<script src="https://kit.fontawesome.com/6f231be1f6.js" crossorigin="anonymous"></script>
 	<!-- title -->
-	<title>Bird Watching</title>
+	<title>Fun Facts - Bird Watching</title>
 </head>
 
 <body>
@@ -21,10 +25,10 @@
 	<header>
 		<!-- navbar -->
 		<div class="navbar_container overflow-auto">
-			<nav class="navbar navbar-expand-xl navbar-dark bg-secondary">
+			<nav class="navbar navbar-expand-xl navbar-dark bg-secondary bg-opacity-25">
 				<div class="container-fluid">
 					<!-- left text of nav bar -->
-					<a class="navbar-brand text-white fs-2 fw-bold">Bird Watching</a>
+					<a class="navbar-brand text-white fs-2 fw-bold title_text">Bird Watching</a>
 					<!-- toggler on right side -->
 					<button class="navbar-toggler rounded-circle btn-md bg-secondary bg-opacity-50" type="button"
 						data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -37,13 +41,15 @@
 						<!-- nav items -->
 						<ul class="navbar-nav ms-auto mb-lg-0">
 							<li class="nav-item">
-								<a class="nav-link text-white fs-4 fw-bold mt-1" href="./index.html">Home</a>
+								<a class="nav-link title_text text-white fs-4 fw-bold mt-1" href="./index.html">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fs-4 fw-bold mt-1" href="./funfacts.html">Fun Facts</a>
+								<a class="nav-link title_text text-white fs-4 fw-bold mt-1" href="./funfacts.html">Fun
+									Facts</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fs-4 fw-bold mt-1" href="./contact.html">Contact</a>
+								<a class="nav-link title_text text-white fs-4 fw-bold mt-1"
+									href="./contact.html">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -59,53 +65,47 @@
 				<img src="./IMG/hbird.jpg" class="w-100" alt="hummingbirds">
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="hbird-headingOne">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#hbird-collapseOne" aria-expanded="false" aria-controls="hbird-collapseOne">
+						<button class="accordion-button collapsed fs-4 title_text" type="button"
+							data-bs-toggle="collapse" data-bs-target="#hbird-collapseOne" aria-expanded="false"
+							aria-controls="hbird-collapseOne">
 							Hummingbird Fun Fact #1
 						</button>
 					</h2>
 					<div id="hbird-collapseOne" class="accordion-collapse collapse" aria-labelledby="hbird-headingOne"
 						data-bs-parent="#accordion_one">
-						<div class="accordion-body">Placeholder content for this accordion, which is intended to
-							demonstrate the
-							<code>.accordion-flush</code> class. This is the first item's accordion body.
+						<div class="accordion-body fs-5 text-white">Hummingbirds are called such because of the humming
+							noise their wings create since they move so quickly.
 						</div>
 					</div>
 				</div>
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="hbird-headingTwo">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#hbird-collapseTwo" aria-expanded="false" aria-controls="hbird-collapseTwo">
+						<button class="accordion-button collapsed fs-4 title_text" type="button"
+							data-bs-toggle="collapse" data-bs-target="#hbird-collapseTwo" aria-expanded="false"
+							aria-controls="hbird-collapseTwo">
 							Hummingbird Fun Fact #2
 						</button>
 					</h2>
 					<div id="hbird-collapseTwo" class="accordion-collapse collapse" aria-labelledby="hbird-headingTwo"
 						data-bs-parent="#accordion_one">
-						<div class="accordion-body">Placeholder content for this accordion, which is intended to
-							demonstrate the
-							<code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
-							this being
-							filled with some actual content.
+						<div class="accordion-body fs-5 text-white">Think you're the only one that could move backwards?
+							Well hummingbirds could fly backwards. They are also the only birds that could do so.
 						</div>
 					</div>
 				</div>
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="hbird-headingThree">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#hbird-collapseThree" aria-expanded="false"
+						<button class="accordion-button collapsed fs-4 title_text" type="button"
+							data-bs-toggle="collapse" data-bs-target="#hbird-collapseThree" aria-expanded="false"
 							aria-controls="hbird-collapseThree">
 							Hummingbird Fun Fact #3
 						</button>
 					</h2>
 					<div id="hbird-collapseThree" class="accordion-collapse collapse"
 						aria-labelledby="hbird-headingThree" data-bs-parent="#accordion_one">
-						<div class="accordion-body">Placeholder content for this accordion, which is intended to
-							demonstrate the
-							<code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
-							exciting
-							happening here in terms of content, but just filling up the space to make it look, at least
-							at first
-							glance, a bit more representative of how this would look in a real-world application.
+						<div class="accordion-body fs-5 text-white">Hummingbirds are the smallest migrating bird. They
+							typically travel alone for up to 500 miles at a time. Something to think about on your next
+							solo road trip.
 						</div>
 					</div>
 				</div>
@@ -118,53 +118,47 @@
 				<img src="./IMG/swift.jpg" class="w-100" alt="swifts">
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="swift-headingOne">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#swift-collapseOne" aria-expanded="false" aria-controls="swift-collapseOne">
+						<button class="accordion-button collapsed fs-4 title_text" type="button"
+							data-bs-toggle="collapse" data-bs-target="#swift-collapseOne" aria-expanded="false"
+							aria-controls="swift-collapseOne">
 							Swift Fun Fact #1
 						</button>
 					</h2>
 					<div id="swift-collapseOne" class="accordion-collapse collapse" aria-labelledby="swift-headingOne"
 						data-bs-parent="#accordion_two">
-						<div class="accordion-body">Placeholder content for this accordion, which is intended to
-							demonstrate the
-							<code>.accordion-flush</code> class. This is the first item's accordion body.
+						<div class="accordion-body fs-5 text-white">Imagine communicating by screaming. That's exactly
+							how swifts communicate and at a very high pitch in comparison to their size.
 						</div>
 					</div>
 				</div>
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="swift-headingTwo">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#swift-collapseTwo" aria-expanded="false" aria-controls="swift-collapseTwo">
+						<button class="accordion-button collapsed fs-4 title_text" type="button"
+							data-bs-toggle="collapse" data-bs-target="#swift-collapseTwo" aria-expanded="false"
+							aria-controls="swift-collapseTwo">
 							Swift Fun Fact #2
 						</button>
 					</h2>
 					<div id="swift-collapseTwo" class="accordion-collapse collapse" aria-labelledby="swift-headingTwo"
 						data-bs-parent="#accordion_two">
-						<div class="accordion-body">Placeholder content for this accordion, which is intended to
-							demonstrate the
-							<code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
-							this being
-							filled with some actual content.
+						<div class="accordion-body fs-5 text-white">Common swifts could fly up to 68 miles per hour,
+							while their larger variants could fly up to 105 miles per hour.
 						</div>
 					</div>
 				</div>
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="swift-headingThree">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#swift-collapseThree" aria-expanded="false"
+						<button class="accordion-button collapsed fs-4 title_text" type="button"
+							data-bs-toggle="collapse" data-bs-target="#swift-collapseThree" aria-expanded="false"
 							aria-controls="swift-collapseThree">
 							Swift Fun Fact #3
 						</button>
 					</h2>
 					<div id="swift-collapseThree" class="accordion-collapse collapse"
 						aria-labelledby="swift-headingThree" data-bs-parent="#accordion_two">
-						<div class="accordion-body">Placeholder content for this accordion, which is intended to
-							demonstrate the
-							<code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
-							exciting
-							happening here in terms of content, but just filling up the space to make it look, at least
-							at first
-							glance, a bit more representative of how this would look in a real-world application.
+						<div class="accordion-body fs-5 text-white">As cute as swifts are, they are not ideal pets. By
+							nature, they mirgrate to different destinations during winter time. They're nice to watch
+							while they are migrating though.
 						</div>
 					</div>
 				</div>
@@ -177,53 +171,46 @@
 				<img src="./IMG/seagull.jpg" class="w-100" alt="seagulls">
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="sgull-headingOne">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#sgull-collapseOne" aria-expanded="false" aria-controls="sgull-collapseOne">
-							Seafull Fun Fact #1
+						<button class="accordion-button collapsed fs-4 title_text" type="button"
+							data-bs-toggle="collapse" data-bs-target="#sgull-collapseOne" aria-expanded="false"
+							aria-controls="sgull-collapseOne">
+							Seagull Fun Fact #1
 						</button>
 					</h2>
 					<div id="sgull-collapseOne" class="accordion-collapse collapse" aria-labelledby="sgull-headingOne"
 						data-bs-parent="#accordion_three">
-						<div class="accordion-body">Placeholder content for this accordion, which is intended to
-							demonstrate the
-							<code>.accordion-flush</code> class. This is the first item's accordion body.
+						<div class="accordion-body fs-5 text-white">Ever wonder the divorce rate for paired up seagulls?
+							0% because they don't have weddings. But more importantly, they pair up for life.
 						</div>
 					</div>
 				</div>
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="sgull-headingTwo">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#sgull-collapseTwo" aria-expanded="false" aria-controls="sgull-collapseTwo">
-							Seafull Fun Fact #2
+						<button class="accordion-button collapsed fs-4 title_text" type="button"
+							data-bs-toggle="collapse" data-bs-target="#sgull-collapseTwo" aria-expanded="false"
+							aria-controls="sgull-collapseTwo">
+							Seagull Fun Fact #2
 						</button>
 					</h2>
 					<div id="sgull-collapseTwo" class="accordion-collapse collapse" aria-labelledby="sgull-headingTwo"
 						data-bs-parent="#accordion_three">
-						<div class="accordion-body">Placeholder content for this accordion, which is intended to
-							demonstrate the
-							<code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
-							this being
-							filled with some actual content.
+						<div class="accordion-body fs-5 text-white">Instead of screaming, seagulls communicate with a
+							range of body movements and vocalizations.
 						</div>
 					</div>
 				</div>
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="sgull-headingThree">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#sgull-collapseThree" aria-expanded="false"
+						<button class="accordion-button collapsed fs-4 title_text" type="button"
+							data-bs-toggle="collapse" data-bs-target="#sgull-collapseThree" aria-expanded="false"
 							aria-controls="sgull-collapseThree">
-							Seafull Fun Fact #3
+							Seagull Fun Fact #3
 						</button>
 					</h2>
 					<div id="sgull-collapseThree" class="accordion-collapse collapse"
 						aria-labelledby="sgull-headingThree" data-bs-parent="#accordion_three">
-						<div class="accordion-body">Placeholder content for this accordion, which is intended to
-							demonstrate the
-							<code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
-							exciting
-							happening here in terms of content, but just filling up the space to make it look, at least
-							at first
-							glance, a bit more representative of how this would look in a real-world application.
+						<div class="accordion-body fs-5 text-white">Seagulls became the state bird of Utah because they
+							dealt with a plague of crickets for Mormon settlers.
 						</div>
 					</div>
 				</div>
@@ -236,53 +223,46 @@
 				<img src="./IMG/penguin.jpg" class="w-100" alt="penguins">
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="pingu-headingOne">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#pingu-collapseOne" aria-expanded="false" aria-controls="pingu-collapseOne">
+						<button class="accordion-button collapsed fs-4 title_text" type="button"
+							data-bs-toggle="collapse" data-bs-target="#pingu-collapseOne" aria-expanded="false"
+							aria-controls="pingu-collapseOne">
 							Penguin Fun Fact #1
 						</button>
 					</h2>
 					<div id="pingu-collapseOne" class="accordion-collapse collapse" aria-labelledby="pingu-headingOne"
 						data-bs-parent="#accordion_four">
-						<div class="accordion-body">Placeholder content for this accordion, which is intended to
-							demonstrate the
-							<code>.accordion-flush</code> class. This is the first item's accordion body.
+						<div class="accordion-body fs-5 text-white">Penguins are known as the water birds. They use a
+							technique called porpoising to move quickly through water.
 						</div>
 					</div>
 				</div>
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="pingu-headingTwo">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#pingu-collapseTwo" aria-expanded="false" aria-controls="pingu-collapseTwo">
+						<button class="accordion-button collapsed fs-4 title_text" type="button"
+							data-bs-toggle="collapse" data-bs-target="#pingu-collapseTwo" aria-expanded="false"
+							aria-controls="pingu-collapseTwo">
 							Penguin Fun Fact #2
 						</button>
 					</h2>
 					<div id="pingu-collapseTwo" class="accordion-collapse collapse" aria-labelledby="pingu-headingTwo"
 						data-bs-parent="#accordion_four">
-						<div class="accordion-body">Placeholder content for this accordion, which is intended to
-							demonstrate the
-							<code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
-							this being
-							filled with some actual content.
+						<div class="accordion-body fs-5 text-white">When penguins need to move quickly over ice, they
+							use a technique called toboganning which is when they do the penguin slide.
 						</div>
 					</div>
 				</div>
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="pingu-headingThree">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#pingu-collapseThree" aria-expanded="false"
+						<button class="accordion-button collapsed fs-4 title_text" type="button"
+							data-bs-toggle="collapse" data-bs-target="#pingu-collapseThree" aria-expanded="false"
 							aria-controls="pingu-collapseThree">
 							Penguin Fun Fact #3
 						</button>
 					</h2>
 					<div id="pingu-collapseThree" class="accordion-collapse collapse"
 						aria-labelledby="pingu-headingThree" data-bs-parent="#accordion_four">
-						<div class="accordion-body">Placeholder content for this accordion, which is intended to
-							demonstrate the
-							<code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
-							exciting
-							happening here in terms of content, but just filling up the space to make it look, at least
-							at first
-							glance, a bit more representative of how this would look in a real-world application.
+						<div class="accordion-body fs-5 text-white">Ever wonder if you could see your house from space?
+							If not, then the next best thing is that you can see penguin poo from space.
 						</div>
 					</div>
 				</div>
@@ -295,87 +275,79 @@
 				<img src="./IMG/swallows.jpg" class="w-100" alt="swallows">
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="swallow-headingOne">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#swallow-collapseOne" aria-expanded="false"
+						<button class="accordion-button collapsed fs-4 title_text" type="button"
+							data-bs-toggle="collapse" data-bs-target="#swallow-collapseOne" aria-expanded="false"
 							aria-controls="swallow-collapseOne">
 							Swallow Fun Fact #1
 						</button>
 					</h2>
 					<div id="swallow-collapseOne" class="accordion-collapse collapse"
 						aria-labelledby="swallow-headingOne" data-bs-parent="#accordion_five">
-						<div class="accordion-body">Placeholder content for this accordion, which is intended to
-							demonstrate the
-							<code>.accordion-flush</code> class. This is the first item's accordion body.
+						<div class="accordion-body fs-5 text-white">Instead of screaming or complex body movements,
+							swallows communicate through different songs.
 						</div>
 					</div>
 				</div>
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="swallow-headingTwo">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#swallow-collapseTwo" aria-expanded="false"
+						<button class="accordion-button collapsed fs-4 title_text" type="button"
+							data-bs-toggle="collapse" data-bs-target="#swallow-collapseTwo" aria-expanded="false"
 							aria-controls="swallow-collapseTwo">
 							Swallow Fun Fact #2
 						</button>
 					</h2>
 					<div id="swallow-collapseTwo" class="accordion-collapse collapse"
 						aria-labelledby="swallow-headingTwo" data-bs-parent="#accordion_five">
-						<div class="accordion-body">Placeholder content for this accordion, which is intended to
-							demonstrate the
-							<code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
-							this being
-							filled with some actual content.
+						<div class="accordion-body fs-5 text-white">The term for baby swallows is nestlings.
 						</div>
 					</div>
 				</div>
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="swallow-headingThree">
-						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-							data-bs-target="#swallow-collapseThree" aria-expanded="false"
+						<button class="accordion-button collapsed fs-4 title_text" type="button"
+							data-bs-toggle="collapse" data-bs-target="#swallow-collapseThree" aria-expanded="false"
 							aria-controls="swallow-collapseThree">
 							Swallow Fun Fact #3
 						</button>
 					</h2>
 					<div id="swallow-collapseThree" class="accordion-collapse collapse"
 						aria-labelledby="swallow-headingThree" data-bs-parent="#accordion_five">
-						<div class="accordion-body">Placeholder content for this accordion, which is intended to
-							demonstrate the
-							<code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
-							exciting
-							happening here in terms of content, but just filling up the space to make it look, at least
-							at first
-							glance, a bit more representative of how this would look in a real-world application.
+						<div class="accordion-body fs-5 text-white">Swallows are a gentle species who are more
+							interested in flying and adapt well to human habitation.
 						</div>
 					</div>
 				</div>
 			</div>
 		</article>
-
 	</main>
 
 	<footer>
-		<div class="container-fluid bg-secondary overflow-auto">
+		<div class="container-fluid bg-secondary bg-opacity-25 overflow-auto">
 			<div class="d-flex flex-column justify-content-center align-items-center p-4">
 				<!-- socials, direct to social landing page -->
 				<div class="socials d-flex flex-row gap-4 p-3">
-					<a class="btn rounded-circle bg-white bg-opacity-25" href="https://twitter.com/?lang=en"
-						target="_blank" rel="noopener noreferrer"><i
-							class="fab fa-twitter fa-lg text-white mt-2"></i></a>
-					<a class="btn rounded-circle bg-white bg-opacity-25" href="https://www.facebook.com/"
-						target="_blank" rel="noopener noreferrer"><i
-							class="fab fa-facebook-f fa-lg text-white mt-2"></i></a>
-					<a class="btn rounded-circle bg-white bg-opacity-25" href="https://www.instagram.com/"
-						target="_blank" rel="noopener noreferrer"><i
-							class="fab fa-instagram fa-lg text-white mt-2"></i></a>
+					<a class="btn rounded-circle bg-black bg-opacity-75 d-flex justify-content-center align-items-center"
+						href="https://twitter.com/?lang=en" target="_blank" rel="noopener noreferrer"><i
+							class="fab fa-twitter fa-lg text-white"></i></a>
+					<a class="btn rounded-circle bg-black bg-opacity-75 d-flex justify-content-center align-items-center"
+						href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i
+							class="fab fa-facebook-f fa-lg text-white"></i></a>
+					<a class="btn rounded-circle bg-black bg-opacity-75 d-flex justify-content-center align-items-center"
+						href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i
+							class="fab fa-instagram fa-lg text-white"></i></a>
+					<a class="btn rounded-circle bg-black bg-opacity-75 d-flex justify-content-center align-items-center"
+						href="https://discord.com/" target="_blank" rel="noopener noreferrer"><i
+							class="fab fa-brands fa-discord fa-lg text-white"></i></a>
 				</div>
 				<!-- copyright segment w/ clickable reference links and functionality to figma and unsplash. -->
-				<p>
-					<span class="text-white opacity-50">&copy; srirachy. Design</span>
+				<p class="bg-black bg-opacity-75">
+					<span class="text-white">&copy; srirachy. Design</span>
 					<a class="text-white" href="https://www.figma.com/" target="_blank"
 						rel="noopener noreferrer">Figma</a>
-					<span class="text-white opacity-50">. Images:</span>
+					<span class="text-white">. Images:</span>
 					<a class="text-white" href="https://unsplash.com/" target="_blank"
 						rel="noopener noreferrer">Unsplash</a>
-					<span class="text-white opacity-50">.</span>
+					<span class="text-white">.</span>
 				</p>
 			</div>
 		</div>

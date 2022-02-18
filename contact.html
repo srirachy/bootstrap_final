@@ -10,10 +10,14 @@
 		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<!-- link stylesheet -->
 	<link href="./CSS/style.css" rel="stylesheet">
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed&family=Playball&display=swap" rel="stylesheet">
 	<!-- font awesome -->
 	<script src="https://kit.fontawesome.com/6f231be1f6.js" crossorigin="anonymous"></script>
 	<!-- title -->
-	<title>Bird Watching</title>
+	<title>Contact - Bird Watching</title>
 </head>
 
 <body>
@@ -21,10 +25,10 @@
 	<header>
 		<!-- navbar -->
 		<div class="navbar_container overflow-auto">
-			<nav class="navbar navbar-expand-xl navbar-dark bg-secondary">
+			<nav class="navbar navbar-expand-xl navbar-dark bg-secondary bg-opacity-25">
 				<div class="container-fluid">
 					<!-- left text of nav bar -->
-					<a class="navbar-brand text-white fs-2 fw-bold">Bird Watching</a>
+					<a class="navbar-brand text-white fs-2 fw-bold title_text">Bird Watching</a>
 					<!-- toggler on right side -->
 					<button class="navbar-toggler rounded-circle btn-md bg-secondary bg-opacity-50" type="button"
 						data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -37,13 +41,15 @@
 						<!-- nav items -->
 						<ul class="navbar-nav ms-auto mb-lg-0">
 							<li class="nav-item">
-								<a class="nav-link text-white fs-4 fw-bold mt-1" href="./index.html">Home</a>
+								<a class="nav-link title_text text-white fs-4 fw-bold mt-1" href="./index.html">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fs-4 fw-bold mt-1" href="./funfacts.html">Fun Facts</a>
+								<a class="nav-link title_text text-white fs-4 fw-bold mt-1" href="./funfacts.html">Fun
+									Facts</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fs-4 fw-bold mt-1" href="./contact.html">Contact</a>
+								<a class="nav-link title_text text-white fs-4 fw-bold mt-1"
+									href="./contact.html">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -53,72 +59,83 @@
 	</header>
 
 	<main>
-		<!-- maybe a contact banner image article -->
+		<!-- contact banner -->
 		<article>
+			<!-- jumbotron -->
 			<div class="jumbotron jumbotron-fluid overflow-auto" id="contact_jumbo">
+				<!-- text container -->
 				<div class="container-fluid h-100 d-flex align-items-end justify-content-center">
-					<!-- figure out why flexbox aint workin on this -->
-					<!-- <h1 class="contact_header d-none d-sm-block display-4 text-uppercase">contact</h1> -->
-					<h1 class="contact_header display-4 text-uppercase text-white mb-4">contact</h1>
+					<h1 class="contact_header title_text display-4 text-uppercase text-white mb-4">contact</h1>
 				</div>
 			</div>
 		</article>
 
-
-
-		<!-- add customized contact form -->
+		<!-- customized contact form -->
 		<article>
+			<!-- container for text and form -->
 			<div class="form_header container-fluid overflow-auto">
-				<p class="text-center">Subscribe now!</p>
+				<p class="text-center title_text text-white text-uppercase fs-2 mt-4">Get new bird facts to your
+					inbox!</p>
 				<div class="contact_container d-flex">
+					<!-- text container -->
 					<div class="form_text_container w-50 d-flex flex-column justify-content-center align-items-center">
-						<p>filler text</p>
+						<p class="text-white w-75 fs-5 text-center">The objective of Bird Watching is to provide you
+							with
+							your weekly dose of bird facts that will aide you in your future endevours and help you
+							forever feel that you are bird watching at the comfort of your own home.</p>
+						<p class="text-white w-75 fs-5 text-center">Sign-up to receive updates on bird facts,
+							potential future
+							merchandise, and more!</p>
 					</div>
-					<!-- gotta figure out why this resizes -->
-					<div class="w-50 d-flex justify-content-center">
+					<!-- form container -->
+					<div class="w-50">
+						<p class="mb-3 text-center text-white fs-5">You can sign-up for our mailing list here:</p>
 						<form>
-							<div class="mb-3">
-								<label for="input_name" class="form-label">Name</label>
-								<input type="text" class="form-control w-100" id="input_name">
+							<div class="mb-3 w-75 mx-auto">
+								<label for="input_name" class="form-label text-white fs-5">Name</label>
+								<input type="text" class="form-control" id="input_name">
 							</div>
-							<div class="mb-3">
-								<label for="input_email" class="form-label">E-mail</label>
-								<input type="email" class="form-control w-100" id="input_email"
-									aria-describedby="emailHelp">
+							<div class="mb-3 w-75 mx-auto">
+								<label for="input_email" class="form-label text-white fs-5">E-mail</label>
+								<input type="email" class="form-control" id="input_email" aria-describedby="emailHelp">
 							</div>
-							<button type="submit" class="btn btn-primary w-100 mb-3">Get Started!</button>
+							<div class="mb-5 mx-auto w-75">
+								<button type="submit" class="btn btn-primary w-100 fs-5">Sign me up!</button>
+							</div>
 						</form>
 					</div>
 				</div>
 			</div>
 		</article>
-
 	</main>
 
 	<footer>
-		<div class="container-fluid bg-secondary overflow-auto">
+		<div class="container-fluid bg-secondary bg-opacity-25 overflow-auto">
 			<div class="d-flex flex-column justify-content-center align-items-center p-4">
 				<!-- socials, direct to social landing page -->
 				<div class="socials d-flex flex-row gap-4 p-3">
-					<a class="btn rounded-circle bg-white bg-opacity-25" href="https://twitter.com/?lang=en"
-						target="_blank" rel="noopener noreferrer"><i
-							class="fab fa-twitter fa-lg text-white mt-2"></i></a>
-					<a class="btn rounded-circle bg-white bg-opacity-25" href="https://www.facebook.com/"
-						target="_blank" rel="noopener noreferrer"><i
-							class="fab fa-facebook-f fa-lg text-white mt-2"></i></a>
-					<a class="btn rounded-circle bg-white bg-opacity-25" href="https://www.instagram.com/"
-						target="_blank" rel="noopener noreferrer"><i
-							class="fab fa-instagram fa-lg text-white mt-2"></i></a>
+					<a class="btn rounded-circle bg-black bg-opacity-75 d-flex justify-content-center align-items-center"
+						href="https://twitter.com/?lang=en" target="_blank" rel="noopener noreferrer"><i
+							class="fab fa-twitter fa-lg text-white"></i></a>
+					<a class="btn rounded-circle bg-black bg-opacity-75 d-flex justify-content-center align-items-center"
+						href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i
+							class="fab fa-facebook-f fa-lg text-white"></i></a>
+					<a class="btn rounded-circle bg-black bg-opacity-75 d-flex justify-content-center align-items-center"
+						href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i
+							class="fab fa-instagram fa-lg text-white"></i></a>
+					<a class="btn rounded-circle bg-black bg-opacity-75 d-flex justify-content-center align-items-center"
+						href="https://discord.com/" target="_blank" rel="noopener noreferrer"><i
+							class="fab fa-brands fa-discord fa-lg text-white"></i></a>
 				</div>
 				<!-- copyright segment w/ clickable reference links and functionality to figma and unsplash. -->
-				<p>
-					<span class="text-white opacity-50">&copy; srirachy. Design</span>
+				<p class="bg-black bg-opacity-75">
+					<span class="text-white">&copy; srirachy. Design</span>
 					<a class="text-white" href="https://www.figma.com/" target="_blank"
 						rel="noopener noreferrer">Figma</a>
-					<span class="text-white opacity-50">. Images:</span>
+					<span class="text-white">. Images:</span>
 					<a class="text-white" href="https://unsplash.com/" target="_blank"
 						rel="noopener noreferrer">Unsplash</a>
-					<span class="text-white opacity-50">.</span>
+					<span class="text-white">.</span>
 				</p>
 			</div>
 		</div>
