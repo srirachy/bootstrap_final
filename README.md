@@ -18,7 +18,7 @@ This project utilizes the HTML5 Bootstrap template, including the required CSS a
 
 ## Installation
 - [Git](https://git-scm.com/) must be installed
-- Clone repository `git clone git@github.com:srirachy/srirachy.github.io.git`
+- Clone repository `git@github.com:srirachy/bootstrap_final.git`
 - Text editor or [VS Code](https://code.visualstudio.com/)
 
 ## License
